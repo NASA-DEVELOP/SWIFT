@@ -16,9 +16,9 @@ grazing allotment. True color and classified images, as well as the total
 surface water extent and historical time series of surface water for the grazing
 allotment are displayed.
 
- Required Packages
-===================
-* SWIFT_classify
+Two tutorials have been included in the repository. The set up tutorial details
+how to set up the scripts and assets inside of Google Earth Engine, while the 
+other explains how to use the tool after it is properly set up.
 
 
  Parameters
@@ -64,12 +64,12 @@ of water within the AOI and in each grazing allotment in the AOI.
 Parameters
 ----------
 *Users must limit the amount of data being exported or a runtime error will be encountered
-1. Line 48: Choose start date
-2. Line 49: Choose end date by advancing up to 4 weeks.
+1. Line 58: Choose start date
+2. Line 59: Choose end date by advancing up to 4 weeks.
 	(Time longer than 4 weeks results in time out error)
-3. Comment in/out lines 405-411 and 444-450 to adjust export settings
-	1. Lines 405-411: function to export water area by the study region
-	2. Lines 444-45-: function to export water area by Allotments within the region
+3. Comment in/out lines 420-426 and 444-450 to adjust export settings
+	1. Lines 420-426: function to export water area by the study region
+	2. Lines 459-465: function to export water area by Allotments within the region
 
 
 =====================================
